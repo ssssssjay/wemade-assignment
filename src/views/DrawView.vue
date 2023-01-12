@@ -71,7 +71,7 @@ function drawWinner() {
   // 계속 뽑는걸 방지
   const memberCountForDraw = membersList.value.length;
   if (winnerList.value.length === totalGoodsCount) {
-    return router.push('/draw');
+    return router.push('/closing');
   }
 
   // 로딩창 활성화
