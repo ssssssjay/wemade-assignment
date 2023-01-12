@@ -1,0 +1,370 @@
+[
+  {
+    "id": 0,
+    "name": "구글기프트카드",
+    "quantity": 3,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "25.jpg",
+    "description": "이걸로 게임해야죠"
+  },
+  {
+    "id": 1,
+    "name": "바디랩스 마우스 손목받침대",
+    "quantity": 4,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "01.jpg",
+    "description": "마우스 사용 시간이 긴 플레인을 위한"
+  },
+  {
+    "id": 2,
+    "name": "보만 계란찜기",
+    "quantity": 3,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "02.jpg",
+    "description": "보글보글 찐 계란으로 단백질 충전"
+  },
+  {
+    "id": 3,
+    "name": "딥디크 핸드크림",
+    "quantity": 9,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "03.jpg",
+    "description": "Diptyque Paris"
+  },
+  {
+    "id": 4,
+    "name": "삼성 비스포크 전자레인지",
+    "quantity": 4,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "04.jpg",
+    "description": "전자레인지라고 부르기엔 다양한 기능"
+  },
+  {
+    "id": 5,
+    "name": "휴대용 테이프 클리너 & 리필 5개",
+    "quantity": 4,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "05.jpg",
+    "description": "감각적인 디자인과 간편한 휴대성"
+  },
+  {
+    "id": 6,
+    "name": "생활공작소 자동핸드워시 디스펜서",
+    "quantity": 3,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "06.jpg",
+    "description": "거품 분사로 쉬운 손세정"
+  },
+  {
+    "id": 7,
+    "name": "조말론 바디워시 대용량",
+    "quantity": 3,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "27.jpg",
+    "description": "JO MALONE LONDON"
+  },
+  {
+    "id": 8,
+    "name": "러쉬 블리스풀 기프트 세트",
+    "quantity": 8,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "07.jpg",
+    "description": "LUSH BLISSFUL"
+  },
+  {
+    "id": 9,
+    "name": "삼성 갤럭시 워치5 40mm",
+    "quantity": 3,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "08.jpg",
+    "description": "애플 워치보다 가볍다구요?!"
+  },
+  {
+    "id": 10,
+    "name": "구글기프트카드",
+    "quantity": 3,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "25.jpg",
+    "description": "이걸로 게임해야죠"
+  },
+  {
+    "id": 11,
+    "name": "감귤 한박스 4kg",
+    "quantity": 4,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "09.jpg",
+    "description": "당도보장 신선한 감귤"
+  },
+  {
+    "id": 12,
+    "name": "우주인 오로라 무드등",
+    "quantity": 3,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "10.jpg",
+    "description": "우리 집 거실에 펼쳐진 인터스텔라"
+  },
+  {
+    "id": 13,
+    "name": "샤오미 무선드라이버",
+    "quantity": 7,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "11.jpg",
+    "description": "가정용 전동 드릴"
+  },
+  {
+    "id": 14,
+    "name": "다이슨 슈퍼소닉 헤어드라이어",
+    "quantity": 2,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "12.jpg",
+    "description": "열손상 적은 드라이기"
+  },
+  {
+    "id": 15,
+    "name": "살림백서 주방세제 2병",
+    "quantity": 4,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "13.jpg",
+    "description": "천연성분 98% 우리 가족 안심 주방세제"
+  },
+  {
+    "id": 16,
+    "name": "자주 중형가습기(3L)",
+    "quantity": 2,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "14.jpg",
+    "description": "이번 겨울시즌 신상이예요"
+  },
+  {
+    "id": 17,
+    "name": "러쉬 슬리피 기프트 세트",
+    "quantity": 8,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "15.jpg",
+    "description": "LUSH SLEEPY"
+  },
+  {
+    "id": 18,
+    "name": "조말론 바디워시 대용량",
+    "quantity": 3,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "27.jpg",
+    "description": "JO MALONE LONDON"
+  },
+  {
+    "id": 19,
+    "name": "넥스프레소 바츄오넥스트",
+    "quantity": 6,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "16.jpg",
+    "description": "홈카페 커피머신"
+  },
+  {
+    "id": 20,
+    "name": "살림백서 세탁세제 2개",
+    "quantity": 4,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "17.jpg",
+    "description": "화학성분을 줄인 착한 세탁세제"
+  },
+  {
+    "id": 21,
+    "name": "인사이디 전동 마사지건",
+    "quantity": 2,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "18.jpg",
+    "description": "그대의 뭉친 어깨 풀어드리리"
+  },
+  {
+    "id": 22,
+    "name": "조말론 핸드크림",
+    "quantity": 8,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "19.jpg",
+    "description": "JO MALONE LONDON"
+  },
+  {
+    "id": 23,
+    "name": "갤럭시 버즈2 프로",
+    "quantity": 3,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "28.jpg",
+    "description": "향상된 노이즈 캔슬링으로 음악에만 집중하세요"
+  },
+  {
+    "id": 24,
+    "name": "다이슨 V10 Absolute 청소기",
+    "quantity": 2,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "20.jpg",
+    "description": "싸이클론 무선 청소기"
+  },
+  {
+    "id": 25,
+    "name": "구글기프트카드",
+    "quantity": 3,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "25.jpg",
+    "description": "이걸로 게임해야죠"
+  },
+  {
+    "id": 26,
+    "name": "신라면 짜파게티 한팩씩",
+    "quantity": 6,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "21.jpg",
+    "description": "국물라면 짜장라면 둘 다 드려요"
+  },
+  {
+    "id": 27,
+    "name": "생활공작소 비건 물티슈 대용량 10팩 ",
+    "quantity": 3,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "22.jpg",
+    "description": "아기들도 안심하고 쓸 수 있어요"
+  },
+  {
+    "id": 28,
+    "name": "러쉬 헬로고져스 기프트 세트",
+    "quantity": 8,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "23.jpg",
+    "description": "LUSH Hello Gorgeous"
+  },
+  {
+    "id": 29,
+    "name": "샤오미 스마트공기청정기",
+    "quantity": 5,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "24.jpg",
+    "description": "집안 만큼은 365일 맑은 공기로"
+  },
+  {
+    "id": 30,
+    "name": "자주 욕실 슬리퍼 2종",
+    "quantity": 9,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "29.jpg",
+    "description": "가볍고 물 잘 빠지는 욕실화"
+  },
+  {
+    "id": 31,
+    "name": "야채탈수기",
+    "quantity": 4,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "30.jpg",
+    "description": "물기 쏙 빠진 맛있는 샐러드 해드세요"
+  },
+  {
+    "id": 32,
+    "name": "아그젠 메밀 경추베개",
+    "quantity": 2,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "31.jpg",
+    "description": "목디스크, 거북목 있으신 분께 추천"
+  },
+  {
+    "id": 33,
+    "name": "조말론 바디워시 대용량",
+    "quantity": 3,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "27.jpg",
+    "description": "JO MALONE LONDON"
+  },
+  {
+    "id": 34,
+    "name": "코닥 미니샷3 레트로 폴라로이드 카메라",
+    "quantity": 5,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "32.jpg",
+    "description": "사진으로 남기는 추억"
+  },
+  {
+    "id": 35,
+    "name": "백설 통깨 참기름",
+    "quantity": 9,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "33.jpg",
+    "description": "방앗간 가득 퍼지는 고소한 풍미 그대로"
+  },
+  {
+    "id": 36,
+    "name": "바디샵 모링가 샤워젤 기프트 세트",
+    "quantity": 3,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "34.jpg",
+    "description": "산뜻한 향이 매력적인 모링가"
+  },
+  {
+    "id": 37,
+    "name": "햇반 흑미밥 24개",
+    "quantity": 2,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "26.jpg",
+    "description": "건강을 위해 백미보다 블랙푸드"
+  },
+  {
+    "id": 38,
+    "name": "애플 AirTag",
+    "quantity": 4,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "35.jpg",
+    "description": "분실한 물건을 찾는 가장 손쉬운 방법"
+  },
+  {
+    "id": 39,
+    "name": "마샬 미니스피커",
+    "quantity": 5,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "36.jpg",
+    "description": "작지만 웅장한 사운드"
+  },
+  {
+    "id": 40,
+    "name": "러쉬 슬리피 기프트 세트",
+    "quantity": 8,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "37.jpg",
+    "description": "LUSH SLEEPY"
+  },
+  {
+    "id": 41,
+    "name": "샤오미 무선드라이버",
+    "quantity": 3,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "38.jpg",
+    "description": "가정용 전동 드릴"
+  },
+  {
+    "id": 42,
+    "name": "조말론 핸드크림",
+    "quantity": 2,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "39.jpg",
+    "description": "JO MALONE LONDON"
+  },
+  {
+    "id": 43,
+    "name": "다이슨 에어랩",
+    "quantity": 1,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "40.jpg",
+    "description": "손 쉬운 헤어스타일링"
+  },
+  {
+    "id": 44,
+    "name": "애플 Airpods Max",
+    "quantity": 1,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "41.jpg",
+    "description": "어디서 크리스마스때 받고 싶은 선물 1위라고.."
+  },
+  {
+    "id": 45,
+    "name": "엘지 퓨리케어 오브제컬렉션 에어로타워",
+    "quantity": 2,
+    "img_prefix": "https://s3.ap-northeast-2.amazonaws.com/stz.suntojam/randombox/",
+    "img": "42.jpg",
+    "description": "오늘의 최고가 경품!"
+  }
+]

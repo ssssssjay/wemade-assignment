@@ -1,0 +1,21 @@
+/* color palette from <https://github.com/vuejs/theme> */
+:root {
+  --color-wemade-theme: #09e16b;
+
+  --vt-c-white: #ffffff;
+
+  --vt-c-black: #181818;
+
+  --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
+}
+
+body {
+  min-height: 100vh;
+  padding-top: 2rem;
+}
+
+button {
+  padding: 0.5em 1em;
+  border-radius: 1em;
+  border: 1px solid var(--vt-c-black);
+}
