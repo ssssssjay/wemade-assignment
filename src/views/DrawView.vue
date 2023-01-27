@@ -3,7 +3,9 @@
     <HeaderLayout></HeaderLayout>
     <div class="sect-draw">
       <GoodsCard v-bind="currentGoods"></GoodsCard>
-      <button class="btn-draw" @click="drawWinner">추첨하기</button>
+      <button ref="buttonDraw" class="btn-draw" @click="drawWinner">
+        추첨하기
+      </button>
       <Teleport to="body">
         <DefaultModal @close="closeWinnerModal" v-show="modal">
           <WinnerCard
@@ -31,10 +33,19 @@ import goods from '../data/goods.json';
 import members from '../data/members.json';
 
 // vue api
-import { ref, computed, watch } from 'vue';
+import { ref, computed, watch, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
 const router = useRouter();
 
+// template(html node) 참조
+const buttonDraw = ref(null);
+
+// console.log(buttonDraw.value, '<= setup'); // null
+onMounted(() => {
+  // console.log(buttonDraw.value, '<= onMounted'); // <button>
+});
+
+// 외부에서 가져온 상품 & 사원 데이터
 const goodsList = ref(goods);
 const membersList = ref(Object.values(members));
 
@@ -69,7 +80,6 @@ const totalGoodsCount = goods.reduce((acc, cur) => acc + cur.quantity, 0);
 
 function drawWinner() {
   // 계속 뽑는걸 방지
-  const memberCountForDraw = membersList.value.length;
   if (winnerList.value.length === totalGoodsCount) {
     return router.push('/closing');
   }
@@ -78,6 +88,7 @@ function drawWinner() {
   isLoading.value = true;
 
   // 당첨자 뽑기
+  const memberCountForDraw = membersList.value.length;
   const winnerIdx = Math.floor(Math.random() * memberCountForDraw);
   const winnerId = membersList.value[winnerIdx].id;
 
@@ -85,23 +96,27 @@ function drawWinner() {
   const isDuplicate = winnerList.value.some(memberId => memberId === winnerId);
   if (isDuplicate) return drawWinner();
 
-  winnerList.value.push(winnerId);
-  saveWinners();
-  currentGoods.value.quantity -= 1;
+  saveWinners(winnerId);
 
   // 기다리는 효과를 주기위한 의도적 지연
   setTimeout(() => {
     isLoading.value = false;
     openWinnerModal();
-  }, 1500);
+  }, 1600);
+  // console.log(buttonDraw.value, '<= drawWinner');
+  // console.log(e);
+  // console.log(e.target);
+  // e.target.blur(); // 다시 뽑히는 경우 에러발생 (다시 뽑힐때는 클릭이벤트가 아니므로)
 }
 function changeGoods() {
+  currentGoods.value.quantity -= 1;
   if (currentGoods.value.quantity === 0) {
     currentGoods.value = goodsList.value[currentGoods.value.id + 1];
   }
 }
 // 당첨자 로컬 저장
-function saveWinners() {
+function saveWinners(winnerId) {
+  winnerList.value.push(winnerId);
   localStorage.setItem('winnerList', JSON.stringify(winnerList.value));
 }
 // 모달 기능
@@ -110,10 +125,12 @@ const modal = ref(false);
 
 function openWinnerModal() {
   modal.value = true;
+  buttonDraw.value.blur();
 }
 function closeWinnerModal() {
   modal.value = false;
   changeGoods();
+  buttonDraw.value.focus();
 }
 </script>
 
@@ -121,5 +138,8 @@ function closeWinnerModal() {
 .btn-draw {
   display: block;
   margin: 2rem auto;
+}
+button:focus {
+  background-color: aqua;
 }
 </style>
